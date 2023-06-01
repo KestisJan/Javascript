@@ -2,11 +2,15 @@
   "name": "javascript",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "console": "nodemon ./js/01-console.js",
     "numbers": "nodemon ./js/02-numbers.js",
     "strings": "nodemon ./js/03-strings.js",
+    "boolean": "nodemon ./js/04-boolean.js",
+    "import": "nodemon ./js/05-import.js",
+    "function": "nodemon ./js/06-function.js",
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
