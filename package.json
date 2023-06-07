@@ -13,6 +13,7 @@
     "function": "nodemon ./js/06-function.js",
     "array": "nodemon ./js/07-array.js",
     "if": "nodemon ./js/08-if.js",
+    "for": "nodemon ./js/09-for.js",
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
