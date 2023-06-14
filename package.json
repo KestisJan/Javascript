@@ -5,6 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "object": "nodemon ./js/11-object.js",
+    "multiply": "nodemon ./mini/multiply.js",
     "console": "nodemon ./js/01-console.js",
     "numbers": "nodemon ./js/02-numbers.js",
     "strings": "nodemon ./js/03-strings.js",
@@ -14,6 +16,7 @@
     "array": "nodemon ./js/07-array.js",
     "if": "nodemon ./js/08-if.js",
     "for": "nodemon ./js/09-for.js",
+    "typeof": "nodemon ./js/10-typeof.js",
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
