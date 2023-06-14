@@ -55,3 +55,5 @@ console.log(`--------------`);
 
 masyvas.reverse();
 console.log(masyvas);
+
+console.log(`--------------`);
