@@ -1,6 +1,7 @@
 /*
 
-for, for-of, while, do-while, for-in
+array -for, for-of, while, do-while, 
+object - for-in
 
 */
 // FOR
@@ -50,3 +51,41 @@ do {
     i4++;
 } while(i4 < marks4.length)
 console.log(`Sum:`, sum4);
+
+console.clear();
+
+console.log(`START`);
+
+for(let i = 0; i < 3; i++) {
+    console.log(i);
+}
+console.log(`START`);
+
+
+//FOR-IN
+console.log(`\nFOR-IN----------------------`)
+
+const user = {
+    name: `Jonas`,
+    age: 99,
+    isMarried: true,
+};
+
+const userKeys = Object.keys(user);
+
+for (let i = 0; i < userKeys.length; i++) {
+    console.log(i);
+}
+
+
+for (const key in user){
+    console.log(key, `:`, user[key]);
+}
+
+console.log(user);
+
+console.clear();
+
+for (let i = 10; i < 100; i += 10) {
+    console.log(i);
+}
